@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    line-height: 1.5;
+    background: url(https://thumbs.dreamstime.com/b/padr%C3%A3o-uniforme-de-aquarela-com-borboleta-voadora-isolada-em-fundo-branco-impress%C3%A3o-borboletas-azuis-ilustra%C3%A7%C3%A3o-pintada-%C3%A0-241629821.jpg);
+}
+nav{
+    background-color: #89b7e2;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+}
+nav h2{
+    color: white;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color: #10437e;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #4d82be;
+    font-weight: bold;
+}
+header{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10437e;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
