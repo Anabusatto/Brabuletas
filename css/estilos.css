@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Edu NSW ACT Cursive", cursive;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background: url(https://thumbs.dreamstime.com/b/padr%C3%A3o-uniforme-de-aquarela-com-borboleta-voadora-isolada-em-fundo-branco-impress%C3%A3o-borboletas-azuis-ilustra%C3%A7%C3%A3o-pintada-%C3%A0-241629821.jpg);
 }
-nav{
+
+nav {
     background-color: #89b7e2;
     padding: 10px 0;
     text-align: center;
@@ -16,44 +18,128 @@ nav{
     top: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    border-bottom: 2px solid #3246a0;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     margin: 0 15px;
+    font-weight: bold;
 }
-nav h2{
+
+nav h2 {
     color: white;
     font-size: 30px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #10437e;
     transition: 0.3s;
     border-radius: 5px;
     background-color: #4d82be;
     font-weight: bold;
 }
-header{
+
+header {
     height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #10437e;
-    text-align: center;
-    padding: 20px;
-    background-color: aliceblue;
 }
-header h1{
+
+header h1 {
     font-size: 50px;
     text-align: center;
-    padding-top: 80px;
+    background-color: rgb(218, 233, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    border-radius: 30px;
+    border: 3px solid #3246a0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e8f577;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 100vh;
+    display: grid;
+    gap: 20px;
+    background-color: aliceblue;
+    border: 6px solid #c3ce67;
+    border-radius: 20px; 
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background-color: white;
+}
+
+#container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #5566b4;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+#container img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#container h2:hover {
+    color: #ffffff;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #4d82be;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: #89b7e2;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+}
+footer a:hover{
+    color: #10437e;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #4d82be;
+    font-weight: bold;
 }
