@@ -60,10 +60,16 @@ a:hover{
     transition: 0.3s;
     background-color: #7db8ec;
 }
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ footer {
     position: fixed;
-    bottom: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #8ab5da; 
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #374eb8;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1); 
+
 }
