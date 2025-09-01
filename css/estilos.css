@@ -123,12 +123,7 @@ header h1 {
     font-weight: bold;
     border: 2px solid #000000;
 }
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
- footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
