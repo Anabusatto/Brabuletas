@@ -75,9 +75,7 @@ header h1 {
 
 .container {
     margin: 0 auto;
-    max-width: 100vh;
-    display: grid;
-    gap: 20px;
+    max-width: 50vw;
     background-color: rgb(224, 236, 247);
     border: 6px solid #cbdd97;
     border-radius: 20px; 
